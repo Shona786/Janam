@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding=utf-8
-# Originally Written By:Muhammad Hamza
+# Originally Written By:Faisal Shona
 # Source : Python2"
 # Donot Recode It.
 
@@ -60,21 +60,31 @@ def exitt():
 		
 ##### LOGO #####
 banner = """
-\033[1;97m            _______    _______ 
-\033[1;97m|\     /|  (  ___  )  (  ____ )
-\033[1;97m| )   ( |  | (   ) |  | (    )|
-\033[1;97m| (___) |  | |   | |  | (____)|
-\033[1;97m|  ___  |  | |   | |  |  _____)
-\033[1;97m| (   ) |  | |   | |  | (      
-\033[1;97m| )   ( |  | (___) |  | )      
-\033[1;97m|/     \|  (_______)  |/ 
+\033[1;97m            
+\033[1;97m|
+\033[1;97m| 
+\033[1;97m|  $$$$$$\  $$\                                     
+$$  __$$\ $$ |                                    
+$$ /  \__|$$$$$$$\   $$$$$$\  $$$$$$$\   $$$$$$\  
+\$$$$$$\  $$  __$$\ $$  __$$\ $$  __$$\  \____$$\ 
+ \____$$\ $$ |  $$ |$$ /  $$ |$$ |  $$ | $$$$$$$ |
+$$\   $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |$$  __$$ |
+\$$$$$$  |$$ |  $$ |\$$$$$$  |$$ |  $$ |\$$$$$$$ |
+ \______/ \__|  \__| \______/ \__|  \__| \_______|
+                                                  
+                                                  
+                                                  
+\033[1;97m|  
+\033[1;97m| 
+\033[1;97m| 
+\033[1;97m|
                                  
 \033[1;97m---------------------------------------------------
  
-➣ Coder     : Muhammad Hamza
-➣ Github    : https://github.com/Hamzahash
-➣ Instagram : muhammad.hamza1626
-➣ Youtube   : HOP Anonymous
+➣ Coder     : Faisal Rehman
+➣ Github    : https://github.com/Shona786/Janam
+➣ whatsapp  : +923035191880
+➣ Youtube   : No need 
 ➣ Warning   : I'M Not Responsible For Any Illegal Act.
 
 ---------------------------------------------------"""
@@ -113,16 +123,16 @@ vuln = "\033[32mVuln"
 def tlogin():
 	os.system('clear')
 	print banner
-	username = raw_input("[+] TOOL USERNAME : ")
-	passw = raw_input("[+] TOOL PASSCODE : ")
+	username = raw_input("[+] Shona : ")
+	passw = raw_input("[+] Mishal : ")
 	
 	if passw =="":
 		print"\033[1;91m[!] Wrong"
 		exit()
 	elif passw =="1626":
-		hamza('[✔] Tool Login Successful')
-		os.system('xdg-open https://www.youtube.com/channel/UCPRlRzOAEH8mcB1WtXf4Q1w')
-		time.sleep(0.1)
+		('[✔] Tool Login Successful')
+		
+		
 		try:
 			toket = open('login.txt','r')
 			menu()
@@ -165,8 +175,8 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print banner
-		hamza('[+] Login Your Facebook Account')
-		hamza('[!] Donot Use Your Personal Account')
+		('[+] Login Your Facebook Account')
+		('[!] Donot Use Your Personal Account')
 		print"[!] Use a New Facebook Account To Login"
 		
 		id = raw_input('[+] Number/Username/Id : ')
@@ -266,8 +276,8 @@ def menu():
 		exit()
 	os.system("clear")
 	print banner
-	print "║[✔] Name : "+nama
-	print "║[✔] ID   : "+id
+	print "║[✔] id : "
+	print "
 	print "\033[1;97m╚"+40*"═"
 	print('-----------------------')
 	print "[1] Start Cloning."
