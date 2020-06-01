@@ -277,7 +277,7 @@ def menu():
 	os.system("clear")
 	print banner
 	print "║[✔] id : "
-	print "
+	print "║[✔] id
 	print "\033[1;97m╚"+40*"═"
 	print('-----------------------')
 	print "[1] Start Cloning."
